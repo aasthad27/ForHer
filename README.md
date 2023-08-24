@@ -1,9 +1,9 @@
 # ForHer - Teenage Period Guide
 
 ForHer is a web application designed to provide essential information and guidance for teenagers about their menstrual cycle and related topics. This project aims to educate and empower young individuals by offering a comprehensive guide to understanding their bodies during this significant phase of life.
-![Screenshot (33)](https://github.com/aasthad27/ForHer/assets/89932857/88b344dd-aac3-4471-9f13-c93f1
+![Screenshot (33)](https://github.com/aasthad27/ForHer/assets/89932857/88b344dd-aac3-4471-9f13-c93f1a9d2063)
 ![Screenshot (35)](https://github.com/aasthad27/ForHer/assets/89932857/8af89df8-bbd8-4865-89e0-7d4ab1d4e265)
-a9d2063)
+
 
 ## Features
 
