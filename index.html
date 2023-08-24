@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>For Her</title>
+</head>
+<body>
+  <div class="plus-sign"></div> 
+  <div class="plus-sign-two"></div> 
+  <div class="heading">
+    <h1>ForHer</h1>
+    <h2>Teenage Period Guide</h2>
+    </div>
+    <div class="image">
+      <img src="she (1).png" alt="img">
+      </div>
+    <div class="blog">
+      <h3>Period calendar</h3>
+      <h3>Period Info</h3>
+      <h3>ChatBot</h3>
+    </div>
+    <!-- animated -->
+    
+  <div class="calendar">
+    <h3>Track here</h3>
+    <div class="calendar-header">
+      <button id="prevMonth">Previous</button>
+      <h2 id="currentMonthYear"></h2>
+      <button id="nextMonth">Next</button>
+    </div>
+    <input type="date" id="periodInput">
+    <div class="calendar-grid" id="calendarGrid">
+      <div class="week-labels" id="weekLabels"></div>
+    </div>
+  </div>
+  <hr class="section-divider">
+  <!-- period info content -->
+  <div class="period-info">
+    <h2 class="section-title">Period Info</h2>
+    <h4 class="question">What is happening with me?</h4>
+    <p class="answer">
+      Congratulations! You've taken a significant step on your journey to womanhood. Your first period, also known as menarche, is a natural part of growing up. Here's what's happening:
+      <ol>
+        <li><strong>Hormonal Changes:</strong> Your body is undergoing hormonal changes that signal the beginning of your menstrual cycle. These hormones play a crucial role in your body's development and fertility.</li>
+        <li><strong>Menstrual Cycle:</strong> Your menstrual cycle is the monthly process your body goes through. It involves the shedding of the uterine lining, which is what you experience as your period. This cycle typically lasts around 28 days.</li>
+        <li><strong>Menstrual Blood:</strong> The blood you see during your period is a mixture of blood, tissue, and mucus from the lining of your uterus. It's a natural and healthy process that helps your body prepare for potential pregnancy.</li>
+        <li><strong>Ovulation:</strong> As you progress through your menstrual cycle, your body releases an egg in a process called ovulation. If the egg isn't fertilized by sperm, you'll have your period.</li>
+        <li><strong>Duration and Flow:</strong> The length of your period can vary, but it usually lasts between 3 to 7 days. The flow might start lighter and become heavier before tapering off.</li>
+        <li><strong>PMS:</strong> Some people experience premenstrual syndrome (PMS) symptoms like mood swings, cramps, and bloating before their period. These symptoms are normal and can be managed.</li>
+      </ol>
+      Remember, everyone's experience is unique. Some people may have irregular periods when they first start, but your cycle will likely become more regular over time. It's important to keep track of your periods to better understand your cycle.
+    </p>
+    <h4 class="question">What products should I use?</h4>
+    <p class="answer">
+      There are several period products available, including pads, tampons, and menstrual cups. Choose what you're comfortable with. Pads are easy to use and dispose of, while tampons and menstrual cups are inserted into the vagina. You might want to start with pads and gradually explore other options as you become more comfortable.
+      Remember, everyone's experience is unique. Some people may have irregular periods when they first start, but your cycle will likely become more regular over time. It's important to keep track of your periods to better understand your cycle.
+    </p>
+      <h2 class="question">Diet </h2>
+      <p class="answer">
+        Your diet can play a role in managing your period discomfort. While there's no one-size-fits-all answer, here are some general tips to consider:
+        <ul>
+          <li><strong>Stay Hydrated:</strong> Drink plenty of water to help reduce bloating and keep your body hydrated.</li>
+          <li><strong>Eat Nutrient-Rich Foods:</strong> Focus on a balanced diet with fruits, vegetables, whole grains, lean proteins, and healthy fats.</li>
+          <li><strong>Iron-Rich Foods:</strong> Consume iron-rich foods like spinach, lentils, lean meats, and fortified cereals to help combat potential iron loss during your period.</li>
+          <li><strong>Foods Rich in Magnesium:</strong> Magnesium-rich foods like nuts, seeds, bananas, and dark chocolate might help with muscle relaxation and mood swings.</li>
+          <li><strong>Avoid Excessive Caffeine and Sugar:</strong> Excessive caffeine and sugary foods can contribute to mood swings and energy crashes.</li>
+          <li><strong>Herbal Teas:</strong> Herbal teas like chamomile or ginger tea might help soothe cramps and promote relaxation.</li>
+        </ul>
+        Remember, listen to your body and make choices that make you feel good. Experiment with different foods to find what works best for you during your period.
+      </p>
+  
+      <footer>
+        <img src="she4 (1).png" alt="dr">
+        <h3>Hi, I am your Personal Doctor , Use ChatBot Icon to ask your queries</h3>
+      </footer>
+      <div class="name">
+      <h3>&#169 Created by <a class="hover:text-purple-500 " href="https://github.com/aasthad27" target="_blank">@aasthad27</a></h3>
+    </div>
+    </div>
+    
+    <!-- Repeat for other questions and answers -->
+  </div>
+  <!-- Dr -->
+
+  <!-- chatbot -->
+  <button class="chatbot-toggler">
+    <span class="material-symbols-rounded">mode_comment</span>
+    <span class="material-symbols-outlined">close</span>
+  </button>
+  <div class="chatbot">
+    <header>
+      <h2>Chatbot</h2>
+      <span class="close-btn material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p>Hi there 👋<br>How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
+    </div>
+  </div>
+  
+</body>
+</html>
