@@ -21,7 +21,7 @@ ForHer is a web application designed to provide essential information and guidan
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/yourusername/ForHer.git`
+1. Clone this repository: `git clone https://github.com/aasthad27/ForHer.git`
 2. Open `index.html` in your preferred web browser.
 3. Explore the different sections of the application.
 
